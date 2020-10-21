@@ -9,7 +9,12 @@ function setup() {
 
   for(let i = 0; i < 9; i++){
     // BLANK[1] (hint: 縞の色を交互に変えるには2で割った余りを使おう)
-    rect(0, i * d, width, (i + 1) * d);
+    // if(i % 2 == 0)
+    // rect(0, i * d, width, (i + 1) * d);
+    if(i % 2 == 0) {
+      fill(blue);
+      rect(0,i * d,width,d);
+    }
   }
 
   fill(blue);
@@ -18,4 +23,27 @@ function setup() {
 
   fill(255);
   // BLANK[2] (hint: 白い十字を描くには rect を二つ描こう)
+  rect(0,2 * d,size,d);
+  fill(255);
+  rect(2 *d,0,d,size * 2/5);
+  fill(255);
+  rect(2 *d,3/5 * size, d,size * 2/5);
 }
+
+
+
+// function setup2() {
+//   createCanvas(270,180);
+//   background(0,125,202);
+//
+//
+//   let d = height / 3;
+//
+//   // for(let i = 0; i < 3; i++) {
+//     // if(i % 2 !== 0) {
+//     //   fill(0,125,202);
+//     //   rect(0,)
+//     // }
+//   fill(0,0,0);
+//   rect(0,0,100,100);
+//   }
