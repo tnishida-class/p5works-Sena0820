@@ -1,5 +1,5 @@
 // 小手調べ
-//
+
 function setup(){
   createCanvas(100,100);
   background(196);
