@@ -1,5 +1,6 @@
 // テキスト「関数を使う」
 // 練習問題：このプログラムを改造してEUの旗を描いてみよう
+//
 function setup(){
   createCanvas(300, 200);
   background(7,82,131);
