@@ -21,8 +21,9 @@ function calendar(y, m){
     // if(d<8) {
     //   document.write(d);
     // }
-    // document.write(d);
-    text(d,100,100);
+    fill(196);
+    document.write(d);
+    // text(d,100,100);
     // if(dayOfWeek(y,m,d) == 0) {
     //   d.context.fillStyle = "red";
     // }
