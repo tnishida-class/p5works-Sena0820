@@ -5,7 +5,7 @@ let cycle;
 function setup(){
   createCanvas(200, 200);
   count = 0;
-  cycle = 80;
+  cycle = 60;
 }
 
 function draw(){
@@ -13,7 +13,7 @@ function draw(){
   count = (count + 1) % cycle;
   // BLANK[1]
   let size;
-  size = count + 100;
+  size = count + 50;
   // size += 1;
   fill(199,60,46);
   ellipse(width / 2, height / 2, size);
