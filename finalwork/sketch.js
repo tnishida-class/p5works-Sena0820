@@ -47,3 +47,17 @@ function textCenterMakecycle(cycleC1,cycleC2,cycleC3,textC1,textC2,textC3,textS,
 function mouseClicked() {
   animate = !animate;
 }
+function keyPressed() {
+  if(key == " ") {
+    animate = !animate;
+  }
+  if(key == "a") {
+    cycle = 500;
+  }
+  if(key == "b") {
+    cycle = 100;
+  }
+  if(key == "r") {
+    cycle =1000;
+  }
+}
