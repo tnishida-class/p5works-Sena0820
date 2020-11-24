@@ -4,14 +4,20 @@
     <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
     <meta charset="UTF-8">
     <style>
-    body {padding: 0; margin: 0;}
+    body {padding: 0; margin: 0;background-color: red;}
     canvas { display: block }
-    h1,h2,p{
+    h1,h2,p,h3{
       text-align: center;
       /* margin: 0 auto; */
     }
     p {
-      color:red;
+      color:yellow;
+    }
+    .mode {
+      width:500px;
+      margin:0 auto;
+      border:2px solid yellow;
+      margin-bottom:30px;
     }
     </style>
     <script src="../p5.min.js"></script>
@@ -21,8 +27,11 @@
     <h1>今日の運勢は？</h1>
     <h2>クリックかスペースキーで止めてね！</h2>
     <p>※大吉を狙いすぎたら凶になるよ</p>
+    <div class ="mode">
+    <h3>隠しコマンド</h3>
     <p>a　のキーを押すと確変モードへ</p>
     <p>b　のキー押すと超確変モードへ</p>
     <p>r で元に戻る</p>
+    </div>
   </body>
 </html>
